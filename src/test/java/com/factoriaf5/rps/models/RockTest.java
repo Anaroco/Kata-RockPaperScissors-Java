@@ -6,17 +6,11 @@ import org.junit.Test;
 
 public class RockTest {
     
-    // @Test
-    // public void justASimpleTest() {
-    //     assertTrue(true);
-    // }
-
     @Test
     public void isaRock() {
-        Rock obj = new Rock();
 
+        Rock obj = new Rock();
         String result =obj.getName();
-        
         assertEquals("Rock", result);
     }
 }

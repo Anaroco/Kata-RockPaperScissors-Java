@@ -8,10 +8,9 @@ public class PaperTest {
 
     @Test
     public void isaPaper() {
-        Paper obj = new Paper();
-
-        String result =obj.getName();
         
+        Paper obj = new Paper();
+        String result =obj.getName();
         assertEquals("Paper", result);
     }
     
